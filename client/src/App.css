@@ -1,0 +1,153 @@
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeout {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+html{
+  height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form{
+  width: 100%;
+  margin:auto;
+}
+
+form label{
+  margin-top:20px;
+}
+
+.nodecoration{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8F9FA;
+}
+
+header .menu a{
+  margin-left: 1rem;
+  font-size: 18px;
+  text-decoration: none;
+  color:#282c34;
+}
+
+header .menu a:hover{
+  color:rgb(110, 107, 107);
+}
+
+h2{
+  margin-top:1rem
+}
+
+.title-separator{
+  width: 70%;
+  margin:auto;
+  margin-bottom: 1rem;
+}
+
+.pactual{
+  font-size: 14px;
+}
+
+.card-text{
+  margin-bottom: 5px;
+}
+
+.dark-mode{
+  color:white;
+  background-color: rgb(22, 22, 22);
+  animation: fadein 500ms;
+}
+
+
+.dark-mode a {
+  color: white !important;
+  animation: fadein 500ms;
+
+}
+
+.dark-mode table {
+  color: white !important;
+  animation: fadein 500ms;
+
+}
+
+.menubuttons{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.btnswitch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btnswitch .separator{
+  border-right: 1px solid rgb(78, 78, 78);
+  margin-left: 0.5rem;
+  margin-right:0.8rem;
+}
+
+.dashboard{
+text-align: center;
+}
+
+.portada{
+  width: 70%;
+  margin:10px auto;
+}
+
+.bodysize{
+  font-size: 20px;
+}
